@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set white background */
+body {
+    background-color: white;
+}
+
+/* Center the header */
+h1 {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 36px;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Style the form */
+form {
+    width: 60%;
+    margin: 50px auto; /* Center the form horizontally */
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+}
+
+/* Style form fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff00ff; /* Goofy color */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Goofy scribbled style */
+body {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff00ff; /* Goofy color */
+}
+
+h1, form {
+    border: 5px dashed #ff00ff; /* Goofy dashed border */
+    padding: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    background-color: #ffff00; /* Goofy background color */
+}
+
+input[type="text"] {
+    border-color: #ff00ff; /* Goofy border color */
+}
+
+input[type="submit"] {
+    border-color: #ff00ff; /* Goofy border color */
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlibs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Madlibs</h1>
+    <form id="UserInputForm">
+        <!-- Input fields -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="noun1">Noun 1:</label><br>
+        <input type="text" id="noun1" name="noun1" required><br><br>
+
+        <label for="noun2">Noun 2:</label><br>
+        <input type="text" id="noun2" name="noun2" required><br><br>
+
+        <label for="noun3">Noun 3:</label><br>
+        <input type="text" id="noun3" name="noun3" required><br><br>
+
+        <label for="pluralNoun">Plural Noun:</label><br>
+        <input type="text" id="pluralNoun" name="pluralNoun" required><br><br>
+
+        <label for="adjective1">Adjective 1:</label><br>
+        <input type="text" id="adjective1" name="adjective1" required><br><br>
+
+        <label for="adjective2">Adjective 2:</label><br>
+        <input type="text" id="adjective2" name="adjective2" required><br><br>
+
+        <label for="adjective3">Adjective 3:</label><br>
+        <input type="text" id="adjective3" name="adjective3" required><br><br>
+
+        <label for="adjective4">Adjective 4:</label><br>
+        <input type="text" id="adjective4" name="adjective4" required><br><br>
+
+        <label for="animal">Animal:</label><br>
+        <input type="text" id="animal" name="animal" required><br><br>
+
+        <label for="bird">Bird:</label><br>
+        <input type="text" id="bird" name="bird" required><br><br>
+
+        <label for="feeling1">Feeling 1:</label><br>
+        <input type="text" id="feeling1" name="feeling1" required><br><br>
+
+        <label for="feeling2">Feeling 2:</label><br>
+        <input type="text" id="feeling2" name="feeling2" required><br><br>
+
+        <label for="familyMember">Family Member:</label><br>
+        <input type="text" id="familyMember" name="familyMember" required><br><br>
+
+        <input type="submit" value="Generate Madlibs">
+    </form>
+
+    <div id="madlibsStory"></div> <!-- This div will display the generated story -->
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
